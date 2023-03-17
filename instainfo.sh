@@ -59,10 +59,17 @@ get_instagram_user_data() {
 }
 
 # Parse command line arguments
-while getopts ":u:" opt; do
+while getopts ":hu:" opt; do
     case $opt in
         u)
             username=$OPTARG
+            ;;
+        h)
+            echo "Usage: $0 -u username"
+            echo "Options:"
+            echo "  -u username: Instagram username"
+            echo "  -h: Display this help message"
+            exit 0
             ;;
         \?)
             echo "Invalid option: -$OPTARG" >&2
