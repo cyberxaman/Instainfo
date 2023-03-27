@@ -11,6 +11,7 @@ chmod +x instainfo.sh
 # Usage
 ```bash
 ./instainfo.sh -u <username>
+```
 
 # support me
 
