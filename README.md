@@ -5,11 +5,10 @@ Get Instagram user information in termux and linux
 ```bash
 git clone https://github.com/cyberxaman/Instainfo.git
 cd Instainfo
-chmod +x instainfo.sh
 ```
 
 # Usage
 ```bash
-./instainfo.sh -u <username>
+python3 instainfo.py -u <username>
 ```
 
