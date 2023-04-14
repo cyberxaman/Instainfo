@@ -27,5 +27,5 @@ printf "-----------------------------------------\n${NC}"
 # installation
 
 pip3 install instaloader
-pip3 install pyshortner
+pip3 install pyshorteners
 pip3 install termcolor
