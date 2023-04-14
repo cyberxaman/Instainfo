@@ -29,3 +29,5 @@ printf "${CYAN}-----------------------------------------\n"
 pip3 install instaloader
 pip3 install pyshorteners
 pip3 install termcolor
+
+printf "${YELLOW}   <---(( installation done ))--> \n${NC}"
