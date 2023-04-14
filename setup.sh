@@ -22,7 +22,7 @@ EOF
 printf "${NC}"
 printf "${YELLOW}   <---(( Coded by cyberxaman ))--> \n${NC}"
 printf "${CYAN}-----------------------------------------\n"
-printf "-----------------------------------------\n${NC}"
+printf "${CYAN}-----------------------------------------\n"
 
 # installation
 
