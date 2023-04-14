@@ -9,6 +9,6 @@ cd Instainfo
 
 # Usage
 ```bash
-python3 instainfo.py -u <username>
+python3 instainfo.py
 ```
 
