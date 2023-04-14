@@ -1,5 +1,5 @@
 #!/bin/bash
-# ade by cyberxaman
+# made by cyberxaman
 
 clear
 
