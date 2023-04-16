@@ -3,7 +3,15 @@ import pyshorteners
 import sys
 import signal
 from termcolor import colored
+import os
 
+# Clear the screen
+if os.name == 'posix':
+    os.system('clear')
+else:
+    os.system('cls')
+
+ 
 # banner
 print(colored("""
 
